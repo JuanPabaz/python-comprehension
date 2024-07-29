@@ -14,5 +14,12 @@ def run():
         charts.generate_bar_chart(keys, values)
 
 
+def world_chart():
+    data = read_csv.read_csv("./app/world_population.csv")
+    key = [element.keys() for element in data]
+    values = [element.values() for element in data]
+    print(key)
+
+
 if __name__ == "__main__":
-    run()
+    world_chart()

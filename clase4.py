@@ -1,5 +1,5 @@
-set_countries1 = {"Colombia","Bolivia","Mexico"}
-set_countries2 = {"Peru","Brazil","Bolivia"}
+set_countries1 = {"Colombia", "Bolivia", "Mexico"}
+set_countries2 = {"Peru", "Brazil", "Bolivia"}
 
 # Union
 set_union = set_countries1.union(set_countries2)
@@ -26,3 +26,5 @@ set_difference3 = set_countries1.symmetric_difference(set_countries2)
 print(set_difference3)
 print(set_countries1 ^ set_countries2)
 
+names = {"Nicolas", "Miguel", "Juan", "Nicolas"}
+print(names)
