@@ -1,8 +1,5 @@
 import utils
 
-country, population = utils.get_population()
-print(country,population)
-
 data = [
     {
         'Country':'Colombia',
@@ -14,6 +11,13 @@ data = [
     }
 ]
 
-country = input('Escribe un pais: ')
-result = utils.population_by_country(data,country)
-print(result)
+def run():
+    country, population = utils.get_population()
+    print(country,population)
+
+    country = input('Escribe un pais: ')
+    result = utils.population_by_country(data,country)
+    print(result)
+
+if __name__ == '__main__':
+    run()
